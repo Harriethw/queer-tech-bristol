@@ -4,10 +4,6 @@ a {
 
 body {
   align-items: center;
-  background-image: url("./images/background.png");
-  background-color: #cccccc;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   font-family: Sans-Serif;
@@ -57,6 +53,13 @@ header {
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
+}
+
+html {
+  background-image: url("./images/background.png");
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -111,9 +114,9 @@ p {
     margin-left: 2em;
   }
 
-  #footer {
+  footer {
+    color: white;
     padding-top: 6em;
-    margin-left: 3em;
   }
 
   h1 {
