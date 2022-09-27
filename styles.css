@@ -56,8 +56,26 @@ header {
 }
 
 html {
-  background-image: url("./images/background.png");
   background-color: white;
+  filter: contrast(490%) brightness(100%);
+  background: conic-gradient(
+      from 0deg at 150% 50%,
+      rgba(0, 0, 255, 1),
+      rgba(201, 148, 53, 0)
+    ),
+    linear-gradient(225deg, rgba(228, 159, 66, 1), rgba(232, 232, 218, 0)),
+    linear-gradient(252deg, rgba(224, 146, 230, 1), rgba(255, 255, 255, 0)),
+    radial-gradient(
+      circle at -49% 128%,
+      rgba(138, 236, 231, 1),
+      rgba(255, 255, 0, 0)
+    ),
+    conic-gradient(
+      from 30deg at 123% 76%,
+      rgba(83, 222, 55, 1),
+      rgba(255, 0, 255, 0)
+    ),
+    url(./noise.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
