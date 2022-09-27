@@ -57,7 +57,7 @@ header {
 
 html {
   background-image: url("./images/background.png");
-  background-color: lightgray;
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -102,6 +102,7 @@ p {
   .event {
     padding-top: 2em;
     flex-direction: row;
+    margin-bottom: 2em;
   }
 
   .event-description {
