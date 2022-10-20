@@ -76,6 +76,10 @@ footer {
   padding-right: 2em;
 }
 
+footer a {
+  color: red;
+}
+
 header {
   text-align: center;
   display: flex;
