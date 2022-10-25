@@ -13,7 +13,7 @@ a {
       rgba(0, 0, 255, 1),
       rgba(201, 148, 53, 0)
     ),
-    linear-gradient(271deg, rgba(243, 154, 35, 1), rgba(232, 232, 218, 0)),
+    linear-gradient(300deg, rgba(243, 154, 35, 1), rgba(232, 232, 218, 0)),
     linear-gradient(250deg, rgba(224, 146, 230, 1), rgba(255, 255, 255, 0)),
     radial-gradient(
       circle at -49% 128%,
@@ -51,18 +51,18 @@ body {
   padding: 2em;
 }
 
-.event {
+.events__event {
   display: flex;
   flex-direction: column;
 }
 
-.event-description {
+.events__description {
   margin-bottom: 3em;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-.event-image {
+.events__image {
   border-radius: 3em;
   width: 100%;
 }
@@ -102,15 +102,15 @@ ul {
 }
 
 h1 {
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 h2 {
-  font-size: 9vw;
+  font-size: 7vw;
 }
 
 h3 {
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 p {
@@ -147,20 +147,21 @@ p {
   .events {
     margin: 3em;
     padding: 3em;
+    max-width: 60vw;
   }
 
-  .event {
+  .events__event {
     padding-top: 2em;
     flex-direction: row;
     margin-bottom: 2em;
   }
 
-  .event-description {
+  .events__description {
     padding-left: 0em;
     width: 70%;
   }
 
-  .event-image {
+  .events__image {
     height: 15em;
     margin-left: 2em;
   }
@@ -175,7 +176,7 @@ p {
   }
 
   h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
   h3 {
@@ -183,6 +184,6 @@ p {
   }
 
   p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
   }
 }
