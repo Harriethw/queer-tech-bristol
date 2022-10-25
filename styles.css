@@ -51,18 +51,18 @@ body {
   padding: 2em;
 }
 
-.event {
+.events__event {
   display: flex;
   flex-direction: column;
 }
 
-.event-description {
+.events__description {
   margin-bottom: 3em;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-.event-image {
+.events__image {
   border-radius: 3em;
   width: 100%;
 }
@@ -146,18 +146,18 @@ p {
     max-width: 60vw;
   }
 
-  .event {
+  .events__event {
     padding-top: 2em;
     flex-direction: row;
     margin-bottom: 2em;
   }
 
-  .event-description {
+  .events__description {
     padding-left: 0em;
     width: 70%;
   }
 
-  .event-image {
+  .events__image {
     height: 15em;
     margin-left: 2em;
   }
