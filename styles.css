@@ -67,7 +67,7 @@ body {
   width: 100%;
 }
 
-#footer {
+footer {
   align-self: baseline;
   color: white;
   margin-top: auto;
@@ -98,15 +98,15 @@ ul {
 }
 
 h1 {
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 h2 {
-  font-size: 9vw;
+  font-size: 7vw;
 }
 
 h3 {
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 p {
@@ -143,6 +143,7 @@ p {
   .events {
     margin: 3em;
     padding: 3em;
+    max-width: 60vw;
   }
 
   .event {
@@ -171,7 +172,7 @@ p {
   }
 
   h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
   h3 {
@@ -179,6 +180,6 @@ p {
   }
 
   p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
   }
 }
