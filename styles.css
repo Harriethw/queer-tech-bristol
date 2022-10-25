@@ -35,7 +35,7 @@ body {
   margin: 0;
   padding: 0;
   flex-direction: column;
-  font-family: Sans-Serif;
+  font-family: 'Baloo Bhai 2', cursive;
   min-height: 100vh;
 }
 
@@ -76,11 +76,32 @@ body {
   padding-right: 2em;
 }
 
-header {
+/* header {
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
+} */
+
+.navbar{
+  background-color: black;
+  border-radius: 33px;
+  margin: 12px 0px;
+}
+
+
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  list-style: none;
+  padding: 5px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Baloo Bhai 2', cursive;
+  padding: 0px 30px;
 }
 
 html {
@@ -111,6 +132,11 @@ h3 {
 
 p {
   font-size: 4vw;
+}
+
+.event-description{
+  background-color: yellow;
+  border-radius: 21px;
 }
 
 /* desktop */
