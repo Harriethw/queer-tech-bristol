@@ -12,3 +12,4 @@ A low tech website for a LGBTQIA+ community meetup in Bristol.
 * 🌐 we value low tech solutions
 * 🚫 no javascript
 * ♿ accessibility-first design - does it work on screen readers? does it pass lighthouse accessibility tests?
+* 🤝 we follow the Berlin Code of Conduct https://berlincodeofconduct.org/ 
