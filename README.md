@@ -1,5 +1,6 @@
 # queer-tech-bristol
-## 🌈 Queer Tech Bristol 🌈
+
+<img width=200px src="./images/qtb_logo_full_black.svg" />
 
 A low tech website for a LGBTQIA+ community meetup in Bristol.
 
