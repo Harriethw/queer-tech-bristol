@@ -1,7 +1,3 @@
-a {
-  font-size: 4vw;
-}
-
 #background {
   height: 100%;
   width: 100%;
@@ -119,10 +115,6 @@ p {
 
 /* desktop */
 @media screen and (min-width: 1025px) {
-  a {
-    font-size: 1.5vw;
-  }
-
   #background {
     background: conic-gradient(
         from 0deg at 150% 50%,
