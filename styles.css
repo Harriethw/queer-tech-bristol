@@ -64,6 +64,10 @@ body {
 }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95vw;
   align-self: baseline;
   color: white;
   margin-top: auto;
@@ -77,10 +81,23 @@ footer a {
 }
 
 header {
+  align-items: center;
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
+}
+
+.header__logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo img {
+  width: 150px;
+  padding: 2em;
 }
 
 html {
