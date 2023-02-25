@@ -100,6 +100,28 @@ header {
   padding: 2em;
 }
 
+.header__logo a {
+  text-decoration: none;
+  color: inherit;
+  display: inherit;
+  flex-wrap: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+.header__made-tech-image {
+  height: 7%;
+  width: 14%;
+}
+
+.header__sponsor-section {
+  background-color: white;
+  border-bottom: 3px solid black;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-bottom: 1%;
+}
+
 html {
   background-color: white;
 }
@@ -128,6 +150,16 @@ h3 {
 
 p {
   font-size: 4vw;
+}
+
+.sponsorship-info {
+  margin-bottom: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.sponsorship-info section {
+  background-color: white transparent;
 }
 
 /* desktop */
