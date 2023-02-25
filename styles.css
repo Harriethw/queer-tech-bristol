@@ -159,7 +159,20 @@ p {
 }
 
 .sponsorship-info section {
-  background-color: white transparent;
+  background-color: rgba(250, 250, 250, 0.5);
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.vip-sponsors__made-tech-image {
+  height: 25%;
+  width: 50%;
+}
+
+.previous-sponsors__image {
+  height: 10%;
+  width: 20%;
 }
 
 /* desktop */
