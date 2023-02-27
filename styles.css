@@ -220,6 +220,10 @@ p {
     margin-left: 2em;
   }
 
+  .sponsorship-info {
+    max-width: 60vw
+  }
+
   footer {
     color: white;
     padding-top: 6em;
