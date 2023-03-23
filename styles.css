@@ -126,6 +126,10 @@ html {
   background-color: white;
 }
 
+.link--image {
+  text-decoration: none;
+}
+
 main {
   display: flex;
 }
