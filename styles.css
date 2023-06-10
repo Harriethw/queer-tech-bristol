@@ -228,6 +228,10 @@ p {
     max-width: 60vw
   }
 
+  .sponsor-link {
+    text-decoration: none;
+  }
+
   footer {
     color: white;
     padding-top: 6em;
