@@ -1,37 +1,32 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    max-width: 100px;
+  }
+}
+
+a {
+  color: rgb(255, 86, 7);
+}
+
 #background {
   height: 100%;
   width: 100%;
   position: absolute;
   z-index: -1;
   filter: contrast(490%) brightness(100%);
-  background: conic-gradient(
-      from 0deg at 150% 50%,
-      rgba(0, 0, 255, 1),
-      rgba(201, 148, 53, 0)
-    ),
-    linear-gradient(300deg, rgba(243, 154, 35, 1), rgba(232, 232, 218, 0)),
-    linear-gradient(250deg, rgba(224, 146, 230, 1), rgba(255, 255, 255, 0)),
-    radial-gradient(
-      circle at -49% 128%,
-      rgba(138, 236, 231, 1),
-      rgba(255, 255, 0, 0)
-    ),
-    conic-gradient(
-      from 30deg at 123% 76%,
-      rgba(83, 222, 55, 1),
-      rgba(255, 0, 255, 0)
-    ),
-    url(./noise.svg);
 }
 
 body {
   align-items: center;
   display: flex;
-  position: relative;
   margin: 0;
   padding: 0;
   flex-direction: column;
-  font-family: Sans-Serif;
+  font-family: Verdana, sans-serif;
   min-height: 100vh;
 }
 
@@ -43,7 +38,6 @@ body {
   flex-direction: column;
   text-align: left;
   width: fit-content;
-  margin: 2em;
   padding: 2em;
 }
 
@@ -67,17 +61,28 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 95vw;
-  align-self: baseline;
-  color: white;
+  width: 100%;
   margin-top: auto;
   padding-top: 6em;
-  padding-left: 2em;
-  padding-right: 2em;
-}
+  background: linear-gradient(
+      300deg,
+      rgba(243, 154, 35, 1),
+      rgba(232, 232, 218, 0)
+    ),
+    linear-gradient(250deg, rgba(224, 146, 230, 1), rgba(255, 255, 255, 0)),
+    radial-gradient(
+      circle at -49% 128%,
+      rgba(138, 236, 231, 1),
+      rgba(255, 255, 0, 0)
+    );
 
-footer a {
-  color: black;
+  div {
+    padding-left: 1em;
+  }
+
+  a {
+    color: white;
+  }
 }
 
 header {
@@ -86,6 +91,11 @@ header {
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
+
+  h1 {
+    color: white;
+    font-size: 4em;
+  }
 }
 
 .header__logo {
@@ -93,6 +103,18 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  background: linear-gradient(
+      300deg,
+      rgba(243, 154, 35, 1),
+      rgba(232, 232, 218, 0)
+    ),
+    linear-gradient(250deg, rgba(224, 146, 230, 1), rgba(255, 255, 255, 0)),
+    radial-gradient(
+      circle at -49% 128%,
+      rgba(138, 236, 231, 1),
+      rgba(255, 255, 0, 0)
+    );
 }
 
 .header__logo img {
@@ -119,7 +141,6 @@ header {
   border-bottom: 3px solid black;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
-  margin-bottom: 1%;
 }
 
 html {
@@ -132,28 +153,13 @@ html {
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-h1 {
-  font-size: 8vw;
-}
-
-h2 {
-  font-size: 7vw;
-}
-
-h3 {
-  font-size: 6vw;
-}
-
-p {
-  font-size: 4vw;
 }
 
 .sponsorship-info {
@@ -180,38 +186,18 @@ p {
 }
 
 /* desktop */
-@media screen and (min-width: 1025px) {
-  #background {
-    background: conic-gradient(
-        from 0deg at 150% 50%,
-        rgba(0, 0, 255, 1),
-        rgba(201, 148, 53, 0)
-      ),
-      linear-gradient(225deg, rgba(228, 159, 66, 1), rgba(232, 232, 218, 0)),
-      linear-gradient(252deg, rgba(224, 146, 230, 1), rgba(255, 255, 255, 0)),
-      radial-gradient(
-        circle at -49% 128%,
-        rgba(138, 236, 231, 1),
-        rgba(255, 255, 0, 0)
-      ),
-      conic-gradient(
-        from 30deg at 123% 76%,
-        rgba(83, 222, 55, 1),
-        rgba(255, 0, 255, 0)
-      ),
-      url(./noise.svg);
-  }
-
+@media screen and (min-width: 800px) {
   .events {
-    margin: 3em;
     padding: 3em;
     max-width: 60vw;
   }
 
   .events__event {
-    padding-top: 2em;
+    padding: 2em;
     flex-direction: row;
     margin-bottom: 2em;
+    border: black 1px dotted;
+    border-radius: 2em;
   }
 
   .events__description {
@@ -221,35 +207,13 @@ p {
 
   .events__image {
     height: 15em;
-    margin-left: 2em;
   }
 
   .sponsorship-info {
-    max-width: 60vw
+    max-width: 60vw;
   }
 
   .sponsor-link {
     text-decoration: none;
-  }
-
-  footer {
-    color: white;
-    padding-top: 6em;
-  }
-
-  h1 {
-    font-size: 5vw;
-  }
-
-  h2 {
-    font-size: 2vw;
-  }
-
-  h3 {
-    font-size: 1.5vw;
-  }
-
-  p {
-    font-size: 1.3vw;
   }
 }
