@@ -12,6 +12,12 @@ a {
   color: rgb(5 56 249);
 }
 
+aside {
+  border: orangered 1px solid;
+  border-radius: 2em;
+  padding: 2em;
+}
+
 #background {
   height: 100%;
   width: 100%;
