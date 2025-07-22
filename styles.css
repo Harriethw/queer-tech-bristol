@@ -158,6 +158,11 @@ html {
   text-decoration: none;
 }
 
+.html_day__article {
+  max-width: 70%;
+  align-self: center;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -222,5 +227,10 @@ ul {
 
   .sponsor-link {
     text-decoration: none;
+  }
+
+  .html_day__article {
+    max-width: 30%;
+    margin-bottom: 5em;
   }
 }
